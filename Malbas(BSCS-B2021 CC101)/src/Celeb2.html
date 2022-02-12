@@ -1,0 +1,343 @@
+<!--
+    Author: Malbas, Elmer (BSCS-B2021)
+	Purpose: Project Website
+	Part: Gallery-Famous people-celeb2
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malbas Website-Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+	    body{
+          background-image: url("https://www.slidebackground.com/uploads/history-ppt-background/history-ancient-powerpoint-template-highest-quality-29.jpg"); 
+          background-size: 1300px 720px;
+          background-repeat: repeat;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .navbar{
+          overflow: hidden;
+          background-color: transparent;
+          margin-top: 5%;
+          margin-right: 7%;
+          float: right;
+        }
+        .navbar a{
+          float: left;
+          font-size: 20px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        .dropdown{
+          float: left;
+          overflow: hidden;
+          
+        }
+        .dropdown .drop{
+          font-size: 20px;  
+          border: none;
+          outline: none;
+          color: white;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+		  font-weight: bold;
+          
+        }
+        .navbar a:hover, .dropdown:hover .drop{
+          background-color: brown;
+        }
+        .droplist{
+          display: none;
+          position: absolute;
+          background-color: brown;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        .droplist a{
+          float: none;
+          color: white;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        .droplist a:hover{
+          background-color: brown;
+        }
+        .dropdown:hover .droplist{
+          display: block;
+        }
+		.Table1{
+          width: 20%;
+          float: left;
+          margin-left: 3%;
+		  margin-top: 5%;
+          
+        }
+        #Img2{
+          margin-left: 10%;
+          margin-bottom: 5%;
+		  margin-top: 5%;
+        }
+        .H1{
+          margin-top: 15%;
+          text-align: center;
+          margin-right: 20%;
+          font-family: 'Times New Roman', Times, serif;
+          color: brown;
+        }
+        #Button1{
+          margin-left: 7%;
+          background-color: transparent;
+          border-radius: 25px;
+          padding: 20px;
+          color: brown;
+          font-size: 20px;
+          font-weight: bolder;
+          border-width: 10px;
+          border-color: brown;
+          margin-right: 5%;
+          width:11%;
+        }
+        #Button1:hover{
+          background-color: #8A4117;
+          color: white;
+        }
+        #Button2{
+          background-color: transparent;
+          border-radius: 25px;
+          padding: 20px;
+          color: brown;
+          font-size: 20px;
+          font-weight: bolder;
+          border-width: 10px;
+          border-color: brown;
+          margin-right: 5%;
+        }
+        #Button2:hover{
+          background-color: #8A4117;
+          color: white;
+        }
+        #Button3{
+          background-color: transparent;
+          border-radius: 25px;
+          padding: 20px;
+          color: brown;
+          font-size: 20px;
+          font-weight: bolder;
+          border-width: 10px;
+          border-color: brown;
+          margin-right: 5%;
+        }
+        #Button3:hover{
+          background-color: #8A4117;
+          color: white;
+        }
+        #Button4{
+          background-color: transparent;
+          border-radius: 25px;
+          padding: 20px;
+          color: brown;
+          font-size: 20px;
+          font-weight: bolder;
+          border-width: 10px;
+          border-color: brown;
+          margin-right: 5%;
+        }
+        #Button4:hover{
+          background-color: #8A4117;
+          color: white;
+        }
+        #Button5{
+          background-color: transparent;
+          border-radius: 25px;
+          padding: 20px;
+          color: brown;
+          font-size: 20px;
+          font-weight: bolder;
+          border-width: 10px;
+          border-color: brown;
+          margin-right: 5%;
+        }
+        #Button5:hover{
+          background-color: #8A4117;
+          color: white;
+        }
+        button{
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .H2{
+          margin-top: 3%;
+          margin-left: 28%;
+          color: brown;
+          font-size: 30px;
+          margin-bottom: 3%;
+        }
+        #Img3{
+          border-radius: 50%;
+          margin-left: 10%;
+        }
+        .Table2{
+          width: 90%;
+          margin-left: 5%;
+          float: left;
+          height: 20%;
+          
+        }
+        #P1{
+          font-size: 25px;
+          font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          color: brown;
+          margin-left: 35%;
+        }
+        #Img4{
+          border-radius: 50%;
+          float: right;
+          margin-right: 5%;
+        }
+        td{
+          width: 50%;
+        }
+        
+        #P3{
+          font-size: 25px;
+          font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          color: brown;
+          align-items: center;
+          margin-right: 22%;
+        }
+        #Buton6{
+          background-color: brown;
+          padding: 15px ;
+          border-color: brown;
+          border-radius: 25px;
+          color: white;
+          font-size: 20px;
+          margin-left: 28%;
+        }
+        #Buton7{
+          background-color: brown;
+          padding: 15px ;
+          border-color: brown;
+          border-radius: 25px;
+          color: white;
+          font-size: 20px;
+          margin-left: 3%;
+        }
+        #H3{
+          color: white;
+          margin-top: 5%;
+          text-align: center;
+          font-size: 40px;
+          margin-left: 3%;
+        }
+        #Button8{
+          align-content: center;
+          margin-left: 40%;
+          background-color: brown;
+          padding: 5px;
+          border-radius: 25px;
+          font-size: 20px;
+          border-color: brown;
+          color: white;
+        }
+        #Button9{
+          align-content: center;
+          margin-left: 5%;
+          background-color: brown;
+          padding: 5px;
+          border-radius: 25px;
+          font-size: 20px;
+          border-color: brown;
+          color: white;
+        }
+    </style>
+</head>
+<body>
+    <table class="Table1"  >
+        <tr>
+          <td><img src="2.png" height="150px" width="180px" id="Img2"/></td>
+        </tr>
+        
+      </table>
+          <div class="navbar">
+            <a href="Index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Flag.html">Philippine Flag</a>
+            <a>Gallery</a>
+            <div class="dropdown">
+              <button class="drop" href="Country.html">
+                <a>Country&nbsp;<i class="fa fa-caret-down"></i></a>
+              </button>
+              <div class="droplist">
+                <a href="Origin.html">Origin/Events</a>
+                <a href="Statistics.html">Statistics</a>
+                <a href="Regions.html">Regions</a>
+                <a href="Symbols.html">National Symbols</a>
+                <a href="PVP.html">Presidents & VPs</a>
+                <a href="IV.html">Music and Videos</a>
+              </div> 
+            </div>
+
+
+            <div class="dropdown">
+              <button class="drop" href="Historical.html">
+                 <a href="Historical.html">Historical Periods&nbsp;<i class="fa fa-caret-down"></i></a>
+              </button>
+              <div class="droplist">
+                <div class="droplist">
+                  <a href="Spanish.html">Spanish Period</a>
+                  <a href="American.html">American Period</a>
+                  <a href="Japanese.html">Japanese Period</a>
+                  <a href="MartialLaw.html">Martial Law Regime</a>
+                </div>
+              </div>
+            </div>
+            <a href="Author.html">Author</a>
+          </div>
+        <br>
+    
+        <h1 class="H1">GALLERY</h1>
+        <br>
+        <a href="Map.html"><button id="Button1">MAP</button></a>
+        <a href="Heroes.html" ><button id="Button2">HEROES</button></a>
+        <a href="People.html"><button id="Button3">PEOPLE</button></a>
+        <a href="Tourist.html"><button id="Button4">TOURIST SPOT</button></a>
+        <a href="OldManila.html"><button id="Button5">OLD MANILA</button></a>
+        <br>
+
+        <h1 class="H2">FAMOUS PEOPLE IN THE PHILIPPINES</h1>
+        <a href="People.html"><button id="Buton6">Sports</button></a>
+        <a href="#H3"><button id="Buton7">Celebrities</button></a>
+        <a href="Gaming.html"><button id="Buton7">Gaming</button></a>
+        <a href="Vlog.html"><button id="Buton7">Vlogging</button></a>
+
+
+        <br><br><br><br><br><br><br><br><br>
+
+        <h3 id="H3">Celebrities</h3>
+
+        <img src="https://tribune.net.ph/wp-content/uploads/2021/03/joshua-garcia.jpg" height="400px" width="400px" id="Img3"/>
+        <img src="https://m.media-amazon.com/images/M/MV5BYWY3MDFjNzYtOWU2MS00Y2M0LTkzZWItOWJkOTUwNjRiNzliXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg" height="400px" width="400px" id="Img4"/>
+
+        <table class="Table2" >
+          <tr>
+            <td><p id="P1">Joshua Garcia</p>
+           </td>
+            <td align="right"><p id="P3">Zanjoe Marudo</p></td>
+          </tr>
+        </table>
+        <br>
+        <a href="Celeb.html"><button id="Button8">Back <<<</button></a>
+        <a href="celeb3.html"><button id="Button9">Next >>></button></a>
+</body>
+</html>

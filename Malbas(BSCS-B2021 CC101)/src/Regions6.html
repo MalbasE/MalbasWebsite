@@ -1,0 +1,213 @@
+<!--
+    Author: Malbas, Elmer (BSCS-B2021)
+	Purpose: Project Website
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+	   <title>Malbas Website-Statistics</title>
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	   <style>
+        body{
+          background-image: url("https://www.slidebackground.com/uploads/history-ppt-background/history-ancient-powerpoint-template-highest-quality-29.jpg"); 
+          background-size: cover;
+          background-repeat: no-repeat;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .navbar{
+          overflow: hidden;
+          background-color: transparent;
+          margin-top: 5%;
+          margin-right: 7%;
+          float: right;
+        }
+        .navbar a{
+          float: left;
+          font-size: 20px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        .dropdown{
+          float: left;
+          overflow: hidden;
+		  
+          
+        }
+        .dropdown .drop{
+          font-size: 20px;  
+          border: none;
+          outline: none;
+          color: white;
+          background-color: inherit;
+          font-family: inherit;
+           margin: 0;
+		       font-weight: bold;
+		  
+          
+        }
+        .navbar a:hover, .dropdown:hover .drop{
+          background-color: brown;
+        }
+        .droplist{
+          display: none;
+          position: absolute;
+          background-color: brown;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        .droplist a{
+          float: none;
+          color: white;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        .droplist a:hover{
+          background-color: brown;
+        }
+        .dropdown:hover .droplist{
+          display: block;
+        }
+       
+        
+        .Table1{
+          width: 20%;
+          float: left;
+          margin-left: 3%;
+	      margin-top: 5%;
+          
+        }
+        #Img2{
+          margin-left: 10%;
+          margin-bottom: 5%;
+		      margin-top: 5%;
+        }
+        .H1{
+          margin-top: 15%;
+          text-align: center;
+          margin-right: 20%;
+          font-family: 'Times New Roman', Times, serif;
+          color: brown;
+        }
+        .Table2{
+            text-align: center;
+            margin-left: 10%;
+            border-color: brown;
+            background-color: #704214;
+        }
+        #LI1{
+            text-align: left;
+            color: white;
+            font-size: 18px;
+        }
+        #Button1{
+            background-color: brown;
+            border-color: brown;
+            color: white;
+            text-align: center;
+            margin-left: 30%;
+            
+        }
+        #A1{
+            color: white;
+            text-decoration: none;
+           
+        }
+    </style>
+	</head>
+	<body>
+	    <table class="Table1"  >
+    <tr>
+      <td><img src="2.png" height="150px" width="180px" id="Img2"/></td>
+    </tr>  
+  </table>
+  
+      <div class="navbar">
+        <a href="Index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Flag.html">Philippine Flag</a>
+        <a href="Gallery.html">Gallery</a>
+        <div class="dropdown">
+          <button class="drop" href="Country.html">
+            <a>Country&nbsp;<i class="fa fa-caret-down"></i></a>
+          </button>
+          <div class="droplist">
+            <a href="Origin.html">Origin/Events</a>
+            <a href="Statistics.html">Statistics</a>
+            <a href="Regions.html">Regions</a>
+            <a href="Symbols.html">National Symbols</a>
+            <a href="PVP.html">Presidents & VPs</a>
+            <a href="IV.html">Music and Videos</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="drop" >
+            <a href="Historical.html">Historical Periods&nbsp;<i class="fa fa-caret-down"></i> </a>
+			
+          </button>
+          <div class="droplist">
+            <a href="Spanish.html">Spanish Period</a>
+                <a href="American.html">American Period</a>
+                <a href="Japanese.html">Japanese Period</a>
+                <a href="MartialLaw.html">Martial Law Regime</a>
+          </div>
+        </div>
+        <a href="Author.html">Author</a>
+      </div>
+    <br><br>
+    <h1 class="H1">REGIONS IN THE PHILIPPINES</h1>
+    <table width="80%" class="Table2" border="10">
+        <tr>
+            <td>
+                <ul type="square" >
+                    <li id="LI1">Region 11: Davao Region</li>
+                        <ul type="disc">
+                            <li id="LI1">Davao de Oro</li>
+                            <li id="LI1">Davao del Norte</li>
+                            <li id="LI1">Davao del Sur</li>
+                            <li id="LI1">Davao Occidental</li>
+                            <li id="LI1">Davao Oriental</li>                                                    
+                        </ul>
+                    <li id="LI1">Region 12: Soccskargen</li>
+                        <ul type="disc">
+                            
+                            <li id="LI1">Cotabato</li>
+                            <li id="LI1">Sarangani</li>
+                            <li id="LI1">South Cotabato</li>
+                            <li id="LI1">Sultan Kudarat</li>                                          
+                        </ul>
+                    <li id="LI1">Region 13: Caraga Region</li>
+                    <ul type="disc">
+                            
+                        <li id="LI1">Agusan del Norte</li>
+                        <li id="LI1">Agusan del Sur</li>
+                        <li id="LI1">Dinagat Islands</li>
+                        <li id="LI1">Surigao del Norte</li>     
+                        <li id="LI1">Surigao del Sur</li>                                       
+                    </ul>
+                    <li id="LI1">BARMM(Bangsamoro Autonomous Region in Muslim Mindanao)</li>
+                    <ul type="disc">
+                        <li id="LI1">Basilan</li>
+                        <li id="LI1">Lanao del Sur</li>
+                        <li id="LI1">Maguindanao</li>
+                        <li id="LI1">Sulu</li>
+                        <li id="LI1">Tawi-Tawi</li>                                          
+                    </ul>
+                </ul>
+            </td>
+        </tr>
+    </table >
+    <br>
+    <button id="Button1"><a href="Regions5.html" id="A1"><<< Back</a></button>
+    <button id="Button1"><a href="Regions.html" id="A1">Next >>></a></button>
+   
+	</body>
+</html >

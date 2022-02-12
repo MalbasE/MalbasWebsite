@@ -1,0 +1,258 @@
+<!--
+    Author: Malbas, Elmer (BSCS-B2021)
+	Purpose: Project Website
+	Part: Gallery-Old Manila 2
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malbas Website-Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+	    body{
+          background-image: url("https://www.slidebackground.com/uploads/history-ppt-background/history-ancient-powerpoint-template-highest-quality-29.jpg"); 
+          background-size: 1300px 720px;
+          background-repeat: repeat;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .navbar{
+          overflow: hidden;
+          background-color: transparent;
+          margin-top: 5%;
+          margin-right: 7%;
+          float: right;
+        }
+        .navbar a{
+          float: left;
+          font-size: 20px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        .dropdown{
+          float: left;
+          overflow: hidden;
+          
+        }
+        .dropdown .drop{
+          font-size: 20px;  
+          border: none;
+          outline: none;
+          color: white;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+		      font-weight: bold;
+          
+        }
+        .navbar a:hover, .dropdown:hover .drop{
+          background-color: brown;
+        }
+        .droplist{
+          display: none;
+          position: absolute;
+          background-color: brown;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        .droplist a{
+          float: none;
+          color: white;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        .droplist a:hover{
+          background-color: brown;
+        }
+        .dropdown:hover .droplist{
+          display: block;
+        }
+	     	.Table1{
+          width: 20%;
+          float: left;
+          margin-left: 3%;
+		      margin-top: 3%;
+          
+        }
+        #Img2{
+          margin-left: 10%;
+          margin-bottom: 5%;
+		      margin-top: 5%;
+        }
+        .H1{
+          margin-top: 12%;
+          text-align: center;
+          margin-right: 18%;
+          font-family: 'Times New Roman', Times, serif;
+          color: brown;
+        }
+        #Button1{
+          background-color: transparent;
+          border-radius: 25px;
+          padding: 20px;
+          color: brown;
+          font-size: 20px;
+          font-weight: bolder;
+          border-width: 10px;
+          border-color: brown;
+          margin-right: 5%;
+          width:11%;
+          margin-left: 7%;
+        }
+        #Button1:hover{
+          background-color: #8A4117;
+          color: white;
+        }
+        #Button2{
+          background-color: transparent;
+          border-radius: 25px;
+          padding: 20px;
+          color: brown;
+          font-size: 20px;
+          font-weight: bolder;
+          border-width: 10px;
+          border-color: brown;
+          margin-right: 5%;
+        }
+        #Button2:hover{
+          background-color: #8A4117;
+          color: white;
+        }
+        #Button3{
+          background-color: transparent;
+          border-radius: 25px;
+          padding: 20px;
+          color: brown;
+          font-size: 20px;
+          font-weight: bolder;
+          border-width: 10px;
+          border-color: brown;
+          margin-right: 5%;
+        }
+        #Button3:hover{
+          background-color: #8A4117;
+          color: white;
+        }
+        #Button4{
+          background-color: transparent;
+          border-radius: 25px;
+          padding: 20px;
+          color: brown;
+          font-size: 20px;
+          font-weight: bolder;
+          border-width: 10px;
+          border-color: brown;
+          margin-right: 5%;
+        }
+        #Button4:hover{
+          background-color: #8A4117;
+          color: white;
+        }
+        #Button5{
+          background-color: transparent;
+          border-radius: 25px;
+          padding: 20px;
+          color: brown;
+          font-size: 20px;
+          font-weight: bolder;
+          border-width: 10px;
+          border-color: brown;
+          margin-right: 5%;
+        }
+        #Button5:hover{
+          background-color: #8A4117;
+          color: white;
+        }
+        button{
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .Table3{
+          margin-top: 2%;
+        }
+        #TD1{
+          text-align: center;
+        }
+        .H4{
+          margin-left: 10%;
+          font-size: 30px;
+          color: brown;
+        }
+       
+    </style>
+</head>
+<body>
+    <table class="Table1" >
+        <tr>
+          <td><img src="2.png" height="150px" width="180px" id="Img2"/></td>
+        </tr>
+        
+      </table>
+          <div class="navbar">
+            <a href="Index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Flag.html">Philippine Flag</a>
+            <a>Gallery</a>
+            <div class="dropdown">
+              <button class="drop" href="Country.html">
+                <a>Country&nbsp;<i class="fa fa-caret-down"></i></a>
+              </button>
+              <div class="droplist">
+                <a href="Origin.html">Origin/Events</a>
+                <a href="Statistics.html">Statistics</a>
+                <a href="Regions.html">Regions</a>
+                <a href="Symbols.html">National Symbols</a>
+                <a href="PVP.html">Presidents & VPs</a>
+                <a href="IV.html">Music and Videos</a>
+              </div> 
+            </div>
+
+
+            <div class="dropdown">
+              <button class="drop" href="Historical.html">
+                 <a href="Historical.html">Historical Periods&nbsp;<i class="fa fa-caret-down"></i></a>
+              </button>
+              <div class="droplist">
+                <a href="Spanish.html">Spanish Period</a>
+                <a href="American.html">American Period</a>
+                <a href="Japanese.html">Japanese Period</a>
+                <a href="MartialLaw.html">Martial Law Regime</a>
+              </div>
+            </div>
+            <a href="Author.html">Author</a>
+          </div>
+        <br>
+    
+        <h1 class="H1">GALLERY</h1>
+        <br>
+        <a href="Map.html"><button id="Button1">MAP</button></a>
+        <a href="Heroes.html" ><button id="Button2">HEROES</button></a>
+        <a href="People.html"><button id="Button3">PEOPLE</button></a>
+        <a href="Tourist.html"><button id="Button4">TOURIST SPOT</button></a>
+        <a href="OldManila.html"><button id="Button5">OLD MANILA</button></a>
+        <br>
+
+        <table class="Table3" width="100%" align="center" >
+          <tr>
+            <td align="center"><a href="OldManila.html"><img src="Back.png" height="100px" width="100px"></a></td>
+            <td id="TD1"><img src="https://www.philippine-history.org/images/Intramuros-Gate-1800s.jpg" height="400px" width="500px" id="Img3"></td>
+            <td id="TD1"><img src="https://www.philippine-history.org/images/Fort-Santiago-1800s.jpg" height="400px" width="500px" id="Img3"></td>
+            <td align="center"><a href="OldManila3.html"><img src="Next.png" height="100px" width="100px"></a></td>
+          </tr>
+        </table>
+        <h4 class="H4">Intramuros,Manila(late 1800s)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fort Santiago Gate (1800s)</h4>
+
+
+       
+        
+        
+</body>
+</html>
